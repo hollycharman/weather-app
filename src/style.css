@@ -63,3 +63,8 @@ h3 {
 .temp {
   font-family: monospace;
 }
+
+.code {
+  font-size: 10px;
+  text-align: center;
+}
