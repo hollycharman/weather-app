@@ -1,0 +1,65 @@
+p {
+  font-family: monospace;
+}
+
+h2 {
+  font-family: "Yeseva One", cursive;
+}
+
+h3 {
+  font-family: "Yeseva One", cursive;
+}
+
+.city {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.city-form {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.city-name {
+  text-align: right;
+}
+
+.font {
+  font-family: "Yeseva One", cursive;
+}
+
+.font-size {
+  font-size: 20px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.emojis {
+  font-size: 40px;
+}
+
+#temperature {
+  font-family: "Yeseva One", cursive;
+  font-size: 30px;
+}
+.current-temp {
+  font-family: "Yeseva One", cursive;
+  font-size: 30px;
+}
+
+.date-time {
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.col-6 {
+  font-family: monospace;
+}
+
+.temp {
+  font-family: monospace;
+}
