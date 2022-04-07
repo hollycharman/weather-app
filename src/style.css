@@ -75,3 +75,7 @@ h3 {
   left: 100px;
   top: 70px;
 }
+
+.units a {
+  text-decoration: none;
+}
