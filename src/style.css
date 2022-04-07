@@ -67,3 +67,11 @@ h3 {
 .code {
   font-size: 10px;
 }
+
+#icon {
+  max-width: 185px;
+  max-height: 185px;
+  position: absolute;
+  left: 100px;
+  top: 70px;
+}

@@ -51,6 +51,23 @@ function showTemp(response) {
   let city = response.data.name;
   let currentCity = document.querySelector("#city");
   currentCity.innerHTML = city;
+
+  let windElement = document.querySelector("#windy");
+  windElement.innerHTML = Math.round(response.data.wind.speed);
+
+  let humidityElement = document.querySelector("#humid");
+  humidityElement.innerHTML = response.data.main.humidity;
+
+  let precipitationElement = document.querySelector("#precip");
+  precipitationElement.innerHTML = response.data.main.humidity;
+
+  let iconElement = document.querySelector("#icon");
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  iconElement.setAttribute("alt", response.data.weather[0].description);
+  getForecast(response.data.coord);
 }
 
 let searchForm = document.querySelector("#search-form");
@@ -85,5 +102,4 @@ function getCurrentInfo(event) {
 
   navigator.geolocation.getCurrentPosition(showPosition);
 }
-
 search("Cardiff");
