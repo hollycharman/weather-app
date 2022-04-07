@@ -44,6 +44,7 @@ function handleSubmit(event) {
 
 function showTemp(response) {
   console.log(response);
+
   let temp = Math.round(response.data.main.temp);
   let currentTemp = document.querySelector("#temperature");
   currentTemp.innerHTML = temp;
@@ -67,6 +68,9 @@ function showTemp(response) {
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
+
+  celsiusTemperature = response.data.main.temp;
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
   getForecast(response.data.coord);
 }
 
