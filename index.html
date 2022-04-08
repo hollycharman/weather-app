@@ -40,7 +40,7 @@
           <h3 class="city-date-time" id="city"></h3>
           <span id="temperature"></span><strong id="temperature"></strong> 
           <span class="units">
-            <a href="#" id="celsius-link" class="active">°C</a> |
+            <a href="#" id="celsius-link" class="active">°C</a><span class="conversion-divider"> |</span>
             <a href="#" id="fahrenheit-link">°F</a></span></div>
           <div class="col-6">
             <span class="date-time"></span> 
@@ -55,82 +55,8 @@
           <br />
           <br />
         </div>
-        <div class="border p-5 mt-3 rounded font font-size text-align">
-          <div class="row">
-            <div class="col">Mon</div>
-            <div class="col">Tues</div>
-            <div class="col">Weds</div>
-            <div class="col">Thurs</div>
-            <div class="col">Fri</div>
-            <div class="col">Sat</div>
-            <div class="col">Sun</div>
-          </div>
-         <div class="row text-align emojis">
-            <div class="col"><img
-                  src="http://openweathermap.org/img/wn/50d@2x.png"
-                  alt=""
-                  width="42"
-                /></div>
-            <div class="col"><img
-                  src="http://openweathermap.org/img/wn/50d@2x.png"
-                  alt=""
-                  width="42"
-                /></div>
-            <div class="col"><img
-                  src="http://openweathermap.org/img/wn/50d@2x.png"
-                  alt=""
-                  width="42"
-                /></div>
-            <div class="col"><img
-                  src="http://openweathermap.org/img/wn/50d@2x.png"
-                  alt=""
-                  width="42"
-                /></div>
-            <div class="col"><img
-                  src="http://openweathermap.org/img/wn/50d@2x.png"
-                  alt=""
-                  width="42"
-                /></div>
-            <div class="col"><img
-                  src="http://openweathermap.org/img/wn/50d@2x.png"
-                  alt=""
-                  width="42"
-                /></div>
-            <div class="col"><img
-                  src="http://openweathermap.org/img/wn/50d@2x.png"
-                  alt=""
-                  width="42"
-                /></div>
-        </div>
-         <div class="row temp">
-            <div class="col">
-            <span class="weather-forecast-temperature-max"> 18° </span><span class="divider">|</span>
-            <span class="weather-forecast-temperature-min"> 12° </span></div>
-
-            <div class="col">
-            <span class="weather-forecast-temperature-max"> 11° </span><span class="divider">|</span>
-            <span class="weather-forecast-temperature-min"> 14° </span></div>
-            
-            <div class="col">
-            <span class="weather-forecast-temperature-max"> 10 </span><span class="divider">|</span>
-            <span class="weather-forecast-temperature-min"> 4° </span></div>
-
-            <div class="col">
-            <span class="weather-forecast-temperature-max"> 7° </span><span class="divider">|</span>
-            <span class="weather-forecast-temperature-min"> 4° </span></div>
-
-            <div class="col">
-            <span class="weather-forecast-temperature-max"> 9° </span><span class="divider">|</span>
-            <span class="weather-forecast-temperature-min"> 4° </span></div>
-
-            <div class="col">
-            <span class="weather-forecast-temperature-max"> 9° </span><span class="divider">|</span>
-            <span class="weather-forecast-temperature-min"> 6° </span></div>
-
-            <div class="col">
-            <span class="weather-forecast-temperature-max"> 10° </span><span class="divider">|</span>
-            <span class="weather-forecast-temperature-min"> 9° </span></div>
-          </div>
+        <div class="border p-4 mt-3 rounded font font-size text-align">
+        <div class="weather-forecast" id="forecast"></div>
       </div>
       <br>
       <p class="code"><a href="https://github.com/hollycharman/weather-app">GitHub open-source code</a> by Holly Charman.</p>
