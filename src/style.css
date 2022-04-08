@@ -78,6 +78,7 @@ h3 {
 
 .units a {
   text-decoration: none;
+  opacity: 0.7;
   font-family: monospace;
 }
 
@@ -85,4 +86,20 @@ h3 {
   font-size: 15px;
   font-family: monospace;
   color: #3e2529;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.7;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.weather-forecast-temperature-max {
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.conversion-divider {
+  font-family: monospace;
+  opacity: 0.8;
 }
