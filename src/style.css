@@ -80,3 +80,9 @@ h3 {
   text-decoration: none;
   font-family: monospace;
 }
+
+.divider {
+  font-size: 15px;
+  font-family: monospace;
+  color: #3e2529;
+}
