@@ -69,11 +69,11 @@ h3 {
 }
 
 #icon {
-  max-width: 185px;
-  max-height: 185px;
+  max-width: 75px;
+  max-height: 75px;
   position: absolute;
-  left: 100px;
-  top: 70px;
+  right: 750px;
+  top: 160px;
 }
 
 .units a {
